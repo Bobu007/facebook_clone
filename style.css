@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+body {
+    background-color: #F2F4F7;
+}
+
+/* login start  */
+
+.login .container {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.login .container .text {
+    width: 480px;
+    padding-bottom: 120px;
+    margin-right: 30px;
+
+}
+
+.login .container .text h2 {
+    font-size: 50px;
+    color: #0866FF;
+    margin-bottom: 10px;
+}
+
+.login .container .text p {
+    font-size: 24px;
+}
+
+.login .container .form {
+    width: 360px;
+}
+
+.login .container .form form {
+    width: 100%;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.105);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login .container .form form input {
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.293);
+    border-radius: 5px;
+}
+
+.login .container .form form input:focus {
+    border: 2px solid #0866FF;
+}
+
+.login .container .form form button {
+    padding: 10px 0px;
+    font-size: 15px;
+    background-color: #0866FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login .container .form form .forgot_btn {
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+
+.login .container .form form .forgot_btn:hover {
+    text-decoration: underline;
+}
+
+.login .container .form form .line {
+    background-color: rgba(128, 128, 128, 0.274);
+    height: 1px;
+    margin: 35px 0px;
+}
+
+.login .container .form form .btn {
+    background-color: #42B72A;
+    width: fit-content;
+    margin: auto;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.login .container .form p {
+    margin-top: 25px;
+    font-size: small;
+    text-align: center;
+}
+
+.login .container .form p span {
+    font-weight: bold;
+}
+
+/* login end  */
+
+/* singup start  */
+.signup {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup .container {
+    width: 30%;
+}
+
+.signup .container .head {
+    font-size: 50px;
+    color: #0866FF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup .container .card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px black;
+    padding: 15px;
+}
+
+.signup .container .card h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.signup .container .card>p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.signup .container .card .name {
+    padding: 8px 15px;
+    border: 1px solid rgba(128, 128, 128, 0.664);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.signup .container .card form .one {
+    margin-right: 10px;
+}
+
+.signup .container .card .birth {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+.signup .container .card .birth svg {
+    border: 1px solid;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50px;
+}
+
+.signup .container .dates {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup .container .dates .date_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    width: 32%;
+    border: 1px solid rgba(128, 128, 128, 0.745);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.signup .container .dates .date_item p {
+    font-size: 18px;
+}
+
+.signup .container .gender {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup .container .gender .gender_item {
+    width: 32%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.signup .container .text {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.signup .container .bot_txt {
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.signup .container .bot_txt span {
+    color: blue;
+    font-size: 11px;
+}
+
+.signup .container .sign_btn {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #42B72A;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 15px 0px;
+    font-weight: bold;
+    width: 50%;
+    margin: 15px auto;
+    border: 1px solid;
+}
+
+.signup .container .footer_txt {
+    font-size: 16px;
+    color: #0866FF;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* signup end  */
+
+@media (max-width: 920px) {
+    .login .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login .container .text,
+    .login .container .form {
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    .login .container .text {
+        text-align: center;
+        padding: 45px 0px;
+    }
+.signup .container {
+    width: 460px;
+}
+}
